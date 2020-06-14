@@ -1,0 +1,20 @@
+header #logo{
+    height: 100px;
+    width: 250px;
+}
+header #header-title{
+    display: inline;
+    width: 50px;
+}
+nav li {
+    display: inline;
+    margin-left: 30px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+nav a:link{
+    text-decoration: none;
+}
+main{
+    margin-top: 100px;
+}
