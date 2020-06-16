@@ -1,3 +1,10 @@
+img{
+    height: 125px;
+    width: 200px;
+}
+header{
+    background-color: limegreen;
+}
 header #logo{
     height: 100px;
     width: 250px;
@@ -12,14 +19,45 @@ nav li {
     font-weight: bolder;
     font-size: 40px;
 }
-nav a:link{
+nav a{
     text-decoration: none;
 }
 main{
+    background-color: cadetblue;
     margin-top: 100px;
+    overflow: auto;
+    width: 100%;
 }
 table, td{
     border: 2px solid black;
     border-collapse: collapse;
     text-align: center;
+}
+div#gallery{
+    background-color: lightseagreen;
+}
+div#gallery div{
+    width: 31%;
+    height: 175px;
+    float: left;
+    background-color: rgb(117, 59, 17);
+    color: rgb(169, 139, 204);
+    margin: 10px 1% 10px 1%;
+}
+p{
+    text-align: center;
+}
+div img{
+    position: relative;
+    left: 125px;
+}
+#info p{
+    text-align: left;
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 15px;
+    margin-top: 1px;
+}
+#info{
+    margin-top: 10px;
 }
