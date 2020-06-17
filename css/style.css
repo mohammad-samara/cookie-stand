@@ -63,7 +63,7 @@ div img{
 
 fieldset{
     text-align: right;
-    width: 440px;
+    width: 500px;
     border: 1px solid royalblue;
     border-radius: 20px;
     padding: 20px;
@@ -91,16 +91,32 @@ legend{
     padding: 10px 20px;
     text-align: left;
     text-transform: uppercase;
+    box-shadow:
+    0 0 0.1vw  0.4vw #fff7f7,   
+    0 0 0.4vw  0.6vw #e97272, 
+    0 0   4vw  0.4vw #e50b0b,
+  
+    inset 0 0 1.5vw  0.4vw #e50b0b,
+    inset 0 0 0.4vw  0.2vw #e97272,
+    inset 0 0 0.5vw  0.2vw #fff7f7;
+    border-radius: 1.5rem;
 }
 input{
     font-size: 120%;
     font-weight: bolder;
     background-color: rgb(68, 29, 94);
     border: 1px solid rosybrown;
-    border-radius: 20px;
-    padding: 5px;
-    margin-bottom: 10px;
-    color: white
+    margin-bottom: 30px;
+    margin-left: 10px;
+    box-shadow:
+    0 0 0.1vw  0.4vw #fff7f7,   
+    0 0 0.4vw  0.6vw #4de666, 
+    0 0   4vw  0.4vw #15750d,
+  
+    inset 0 0 1.5vw  0.4vw #15750d,
+    inset 0 0 0.4vw  0.2vw #4de666,
+    inset 0 0 0.5vw  0.2vw #fff7f7;
+    border-radius: 1.5rem;
 }
 #submit1{
     border: none;
@@ -109,6 +125,17 @@ input{
 
 
 #submit1 {
+
+    box-shadow:
+    0 0 0.1vw  0.4vw #fff7f7,   
+    0 0 0.4vw  0.6vw #c94faa, 
+    0 0   4vw  0.4vw #610a4b,
+  
+    inset 0 0 1.5vw  0.4vw #610a4b,
+    inset 0 0 0.4vw  0.2vw #c94faa,
+    inset 0 0 0.5vw  0.2vw #fff7f7;
+    border-radius: 1.5rem;
+
     color:rgb(33, 160, 76);
     transform: translate(0% ,0%);
     text-shadow:
