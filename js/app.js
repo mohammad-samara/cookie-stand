@@ -37,6 +37,7 @@ function createTableHeader() {
 function createTableFooter() {
     sumSalesPerHour();
     var newRow = document.createElement('tr');
+    newRow.setAttribute("id","Totals");
     newTable.appendChild(newRow);
     for (var i = 0; i < SalesPerHour.length; i++) {
         if (i < 1) {
@@ -159,3 +160,29 @@ for (var i = 0; i < objectsArray.length; i++) {
 }
 // calling createTableFooter
 createTableFooter();
+
+//updates table after submitting the form
+var elForm=document.getElementById('newLocationForm'); //form
+
+elForm.addEventListener('submit', addStore);
+// var lCounter = 1;
+function addStore(e){
+event.preventDefault();
+// var InName=document.getElementById('lName');
+// var InMin=document.getElementById('min');
+// var InMax=document.getElementById('max');
+// var InAvgcookies=document.getElementById('avgcookies');
+// console.log(InName.value,InMax.value,InMin.value,InAvgcookies.value);
+var newName = e.target.lName.value;
+var newMin = e.target.min.value;
+var newMax= e.target.max.value;
+var newAvg= e.target.avgcookies.value;
+console.log(newName,newMin,newMax,newAvg);
+var newStore = new Location(newName,newMin,newMax,newAvg);
+document.getElementById('Totals').remove();
+newStore.getCus();
+newStore.getcookie();
+newStore.render();
+SalesPerHour=[];
+createTableFooter();
+}
