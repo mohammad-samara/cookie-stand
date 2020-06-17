@@ -63,13 +63,16 @@ div img{
 
 fieldset{
     text-align: right;
-    width: 400px;
+    width: 440px;
     border: 1px solid royalblue;
     border-radius: 20px;
     padding: 20px;
     margin: 20px;
-position: relative;
-left: 450px;
+    position: relative;
+    left: 450px;
+    background-color: black;
+    color: cornsilk;
+    font-weight: bolder;
 
     box-shadow:
     0 0 0.1vw  0.4vw #fff7f7,   
@@ -82,7 +85,7 @@ left: 450px;
     border-radius: 1.5rem;
 }
 legend{
-    background-color: sandybrown;
+    background-color: rgb(68, 29, 94);
     border: 1px solid royalblue;
     border-radius: 20px;
     padding: 10px 20px;
@@ -91,13 +94,13 @@ legend{
 }
 input{
     font-size: 120%;
-    color: rgb(50, 196, 196);
     font-weight: bolder;
-    background-color: yellowgreen;
+    background-color: rgb(68, 29, 94);
     border: 1px solid rosybrown;
     border-radius: 20px;
     padding: 5px;
     margin-bottom: 10px;
+    color: white
 }
 #submit1{
     border: none;
