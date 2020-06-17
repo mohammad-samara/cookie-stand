@@ -60,3 +60,88 @@ div img{
 #info{
     margin-top: 10px;
 }
+
+fieldset{
+    text-align: right;
+    width: 400px;
+    border: 1px solid royalblue;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+position: relative;
+left: 450px;
+
+    box-shadow:
+    0 0 0.1vw  0.4vw #fff7f7,   
+    0 0 0.4vw  0.6vw #e97272, 
+    0 0   4vw  0.4vw #e50b0b,
+  
+    inset 0 0 1.5vw  0.4vw #e50b0b,
+    inset 0 0 0.4vw  0.2vw #e97272,
+    inset 0 0 0.5vw  0.2vw #fff7f7;
+    border-radius: 1.5rem;
+}
+legend{
+    background-color: sandybrown;
+    border: 1px solid royalblue;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+input{
+    font-size: 120%;
+    color: rgb(50, 196, 196);
+    font-weight: bolder;
+    background-color: yellowgreen;
+    border: 1px solid rosybrown;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+#submit1{
+    border: none;
+    background-color:transparent;
+}
+
+
+#submit1 {
+    color:rgb(33, 160, 76);
+    transform: translate(0% ,0%);
+    text-shadow:
+                    0 1px 0 rgb(190,190,190),
+                    0 2px 0 rgb(185,185,185),
+                    0 3px 0 rgb(180,180,180),
+                    0 4px 0 rgb(175,175,175),
+                    0 5px 0 rgb(170,170,170),
+                    0 6px 0 rgb(165,165,165),
+                    0 7px 0 rgb(160,160,160),
+
+                    0 1px 5px rgba(0,0,0,.05),
+                    0 3px 5px rgba(0,0,0,.10),
+                    0 5px 10px rgba(0,0,0,.15),
+                    0 7px 10px rgba(0,0,0,.20),
+                    0 10px 15px rgba(0,0,0,.25);
+    transition: all 0.3s ease-in-out;        
+    cursor: pointer;
+}
+#submit1:hover {
+    text-shadow:
+                    0 1px 0 rgb(190,190,190),
+                    0 2px 0 rgb(185,185,185),
+                    0 3px 0 rgb(180,180,180),
+                    0 4px 0 rgb(175,175,175),
+                    0 5px 0 rgb(170,170,170),
+                    0 6px 0 rgb(165,165,165),
+                    0 7px 0 rgb(160,160,160),
+                    0 8px 0 rgb(155,155,155),
+                    0 9px 0 rgb(150,150,150),
+
+                    0 1px 5px rgba(0,0,0,.05),
+                    0 5px 5px rgba(0,0,0,.10),
+                    0 10px 10px rgba(0,0,0,.15),
+                    0 15px 10px rgba(0,0,0,.20),
+                    0 20px 15px rgba(0,0,0,.25);
+    transform: translate(-1%,-1%);
+    transition: all 0.3s ease-in-out;
+}
