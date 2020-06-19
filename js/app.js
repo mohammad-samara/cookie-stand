@@ -23,10 +23,10 @@ function createTableHeader() {
     newTable.appendChild(newRow);
     for (var i = 0; i < tableHeaderArray.length; i++) {
         if (i < 1) {
-            var newTd = document.createElement('td');
+            var newTd = document.createElement('th');
             newTd.textContent = tableHeaderArray[i];
         } else {
-            var newTd = document.createElement('td');
+            var newTd = document.createElement('th');
             newTd.textContent = tableHeaderArray[i];
         }
         newRow.appendChild(newTd);
